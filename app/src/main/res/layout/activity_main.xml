@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#462446"
+    tools:context="com.example.student.activity_registerxml.MainActivity">
+
+
+   <EditText
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:inputType="textPersonName"
+       android:text="  YourName"
+       android:ems="10"
+       android:id="@+id/editText"
+       android:textColor="#fff"
+       android:background="@drawable/border"
+       android:layout_below="@+id/textView"
+       android:layout_alignLeft="@+id/editText2"
+       android:layout_alignStart="@+id/editText2"
+       android:layout_marginTop="66dp" />
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="CREATE YOUR ACCOUNT"
+       android:id="@+id/textView"
+       android:gravity="center"
+       android:textsize="20sp"
+       android:textColor="#fff"
+       android:Layout_alignmentParentTop="true"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentStart="true" />
+
+   <EditText
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:inputType="textEmailAddress"
+       android:ems="10"
+       android:id="@+id/editText2"
+       android:text="Your email"
+       android:textColor="#fff"
+       android:background="@drawable/border"
+       android:layout_marginLeft="13dp"
+       android:layout_marginStart="13dp"
+       android:layout_below="@+id/editText"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentStart="true"
+       android:layout_marginTop="62dp" />
+
+   <EditText
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:inputType="textPassword"
+       android:ems="10"
+       android:id="@+id/editText3"
+       android:hint="Password"
+       android:textColor="#fff"
+       android:background="@drawable/border"
+       android:textColorHint="#fff"
+       android:layout_marginTop="56dp"
+       android:layout_below="@+id/editText2"
+       android:layout_alignLeft="@+id/editText2"
+       android:layout_alignStart="@+id/editText2" />
+
+   <Button
+       android:text="SIGN UP"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="29dp"
+       android:layout_marginStart="29dp"
+       android:layout_marginTop="83dp"
+       android:id="@+id/button"
+       android:textColor="#fff"
+       android:background="@drawable/border"
+       android:backgroundTint="#653f66"
+       android:layout_below="@+id/editText3"
+       android:layout_alignLeft="@+id/editText3"
+       android:layout_alignStart="@+id/editText3" />
+</RelativeLayout>
